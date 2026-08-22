@@ -1,0 +1,50 @@
+# macOS system artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.Caches
+.fseventsd
+.VolumeIcon.icns
+
+# Linux system artifacts
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# pip install -e .
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Editor artifacts
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.zed/
+
+# Data
+train_data/
